@@ -1,5 +1,3 @@
-//Ex1-(i) MERGE SORT
-
 #include<iostream>
 using namespace std;
 
@@ -21,7 +19,7 @@ void MERGE(int p, int q, int r)
 {
 	int n1= q-p+1; 
 	int n2=r-q;
-	int L[n1+2], R[n2+1];
+	int L[n1+1], R[n2+1];
 	for(int i=1; i<=n1; i++)
 	{
 		L[i]=a[p+i-1];
