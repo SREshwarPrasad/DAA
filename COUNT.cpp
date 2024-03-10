@@ -7,7 +7,7 @@ int n;
 
 int bubblesort() //retrieve largest element, bubble sort in ascending order. last element is largest (can do even by max method)
 {
-	for(int i=1; i<=n;i++)
+	for(int i=0; i<=n;i++)
 	{
 		for(int j=i+1; j<=n; j++)
 		{
