@@ -9,6 +9,7 @@ struct edge
 	int u,v,wt;
 }e[max];
 
+
 int d[max]; 
 int w[max][max]; 
 int s;
