@@ -17,9 +17,17 @@ void par(int s[][10],int i,int j)
 int main()
 {
 	
-	int p[]={5,4,6,2,7};
-	int n=4;
+	int p[10];
+	int n;
 	int i,j,l,k,q;
+	
+	cout<<"No of elements: "; cin>>n;
+	for(int i=0; i<5; i++)
+	{
+		cout<<"Element "<<i<<" ";
+		cin>>p[i];
+	}
+	
 	for(i=1; i<=n; i++)
 	{
 		m[i][i]=0;
@@ -42,9 +50,9 @@ int main()
 		}
 	}
 	cout<<endl;
-	for(i=1; i<=n; i++)
+	for(i=1; i<n; i++)
 	{
-		for(j=1; j<=n; j++)
+		for(j=1; j<n; j++)
 		{
 			cout<<m[i][j]<<"\t";
 		}
@@ -54,9 +62,9 @@ int main()
 	
 	cout<<endl<<"s matrix: "<<endl;
 		
-	for(i=1; i<=n; i++)
+	for(i=1; i<n; i++)
 	{
-		for(j=1; j<=n; j++)
+		for(j=1; j<n; j++)
 		{
 			cout<<s[i][j]<<"\t";
 		}
