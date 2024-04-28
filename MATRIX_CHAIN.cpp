@@ -74,7 +74,7 @@ int main()
 	
 	cout<<endl;
 	
-	par(s,1,n);
+	par(s,1,n-1);
 	
 	
 	
