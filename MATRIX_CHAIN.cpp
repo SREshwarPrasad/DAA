@@ -22,7 +22,7 @@ int main()
 	int i,j,l,k,q;
 	
 	cout<<"No of elements: "; cin>>n;
-	for(int i=0; i<5; i++)
+	for(int i=0; i<n; i++)
 	{
 		cout<<"Element "<<i<<" ";
 		cin>>p[i];
